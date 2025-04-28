@@ -1,4 +1,5 @@
-SELECT
+-- contains more post types than purely questions and answers. leaving aside for this project
+SELECT 
 id,
 title,
 body,
@@ -25,4 +26,4 @@ score,
 tags,
 view_count
 FROM
-{{ ref('posts_answers') }}
+{{ ref('stackoverflow_posts') }}

@@ -40,7 +40,13 @@ models:
     raw_stack_overflow:
       schema: raw_stack_overflow
       materialized: view
+    stg_stack_overflow:
+      schema: stg_stack_overflow
+      materialized: view
     star_schema:
       schema: star_schema
+      materialized: view
+    reporting_stack_overflow:
+      schema: reporting_stack_overflow 
       materialized: table
 
