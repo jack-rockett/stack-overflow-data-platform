@@ -8,7 +8,7 @@ UNION ALL
 SELECT
 *
 FROM
-{{ ref('stg_posts_questions') }}
+{{ ref('stg_posts_answers') }}
 )
 SELECT
 id,
